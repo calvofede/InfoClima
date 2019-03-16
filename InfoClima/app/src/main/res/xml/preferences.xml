@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListPreference
+        android:defaultValue="metric"
+        android:entries="@array/units_preferences_options"
+        android:entryValues="@array/values_preferences_options"
+        android:key="units"
+        android:title="@string/units_preference_button" />
+
+    <EditTextPreference
+        android:defaultValue="Rosario,AR"
+        android:inputType="text"
+        android:key="location"
+        android:singleLine="true"
+        android:title="@string/location_preference_button" />
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/show_notifications_by_default"
+        android:key="@string/pref_enable_notifications_key"
+        android:summaryOff="@string/disabled"
+        android:summaryOn="@string/enabled"
+        android:title="@string/notification_preference_button" />
+
+</PreferenceScreen>

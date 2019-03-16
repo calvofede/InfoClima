@@ -1,0 +1,71 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name" translatable="false">InfoClima</string>
+
+    <string name="send_button">Compartir</string>
+    <string name="map_button">Mapa</string>
+    <string name="settings_button">Configuración</string>
+    <string name="units_preference_button">Temperatura en</string>
+    <string name="location_preference_button">Ubicación (Ciudad,País)</string>
+
+    <string name="pref_metric_title">Métrico</string>
+    <string name="pref_imperial_title">Imperial</string>
+
+    <string name="pref_metric_value">metric</string>
+    <string name="pref_imperial_value">imperial</string>
+
+    <string name="humidity_label">Humedad</string>
+    <string name="pressure_label">Presión</string>
+    <string name="wind_label">Viento</string>
+
+    <string name="notification_preference_button">Notificación diaria del clima</string>
+
+    <string name="share_weather">Pronostico Clima</string>
+
+    <string name="disabled">Desactivado</string>
+    <string name="enabled">Activado</string>
+
+    <string name="today">Hoy</string>
+    <string name="tomorrow">Mañana</string>
+
+    <string name="weather_notification_prefix">Clima hoy:</string>
+
+    <string name="this_week">Esta semana:</string>
+
+    <string name="updated">Actualizado</string>
+
+
+    <!--Utilizado por DarkSkyAPIUtils -->
+
+    <!-- Temp en Celsius  -->
+    <string name="format_temperature_celsius">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0C
+    </string>
+
+    <!-- Temp en Fahrenheit -->
+    <string name="format_temperature_fahrenheit">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0F
+    </string>
+
+    <!-- Viento en kph -->
+    <string name="format_wind_kmh">
+        <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <!-- Viento en mph -->
+    <string name="format_wind_mph">
+        <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+
+    <string name="condition_unknown">Unknown (<xliff:g id="conditionId">%1$d</xliff:g>)</string>
+    <string name="pref_enable_notifications_key">enable_notifications</string>
+    <string name="default_location">Rosario,AR</string>
+    <string name="updated_less_one_minute_ago">hace menos de un minuto</string>
+    <string name="error_location_not_found">Error! ubicación:</string>
+    <string name="error_location_not_found2">no encontrada</string>
+    <string name="error_weather_unknown_desc">Ubicación desconocida, mostrando última ubicación válida</string>
+    <string name="error_unable_to_shot_map_location">Error! Ubicación en el mapa no disponible!</string>
+
+
+</resources>

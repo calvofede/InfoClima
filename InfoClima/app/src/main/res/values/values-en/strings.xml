@@ -1,0 +1,52 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">InfoClima</string>
+
+    <string name="send_button">Share</string>
+    <string name="map_button">Map</string>
+    <string name="settings_button">Settings</string>
+    <string name="units_preference_button">Temperature units in</string>
+    <string name="location_preference_button">Location</string>
+
+    <string name="pref_metric_title">Metric</string>
+    <string name="pref_imperial_title">Imperial</string>
+
+    <string name="pref_metric_value">metric</string>
+    <string name="pref_imperial_value">imperial</string>
+
+    <string name="humidity_label">Humidity</string>
+    <string name="pressure_label">Pressure</string>
+    <string name="wind_label">Wind</string>
+
+    <string name="notification_preference_button">Daily weather forecast notification</string>
+
+    <string name="share_weather">Forecast weather</string>
+
+
+    <!--Utilizado por DarkSkyAPIUtils -->
+
+    <!-- Temp en Celsius  -->
+    <string name="format_temperature_celsius">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0C
+    </string>
+
+    <!-- Temp en Fahrenheit -->
+    <string name="format_temperature_fahrenheit">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0F
+    </string>
+
+    <!-- Viento en kph -->
+    <string name="format_wind_kmh">
+        <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <!-- Viento en mph -->
+    <string name="format_wind_mph">
+        <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+
+    <string name="condition_unknown">Unknown (<xliff:g id="conditionId">%1$d</xliff:g>)</string>
+    <string name="pref_enable_notifications_key">enable_notifications</string>
+
+</resources>
